@@ -1,7 +1,7 @@
 {
   "welcome": {
     "title": "Ahorra tiempo, dinero y dolores de cabeza ",
-    "description": "Te damos la oportunidad de eliminar todos tus problemas con el alquiler y revalorizar tu casa a coste cero para ti.<br>¿Te imaginas que el inquilino ademas de pagarte todos los meses te devolviera el piso en mejores condiciones que cuando lo arrendastes?<br>¡Lo has encontrado!"
+    "description": "Te damos la oportunidad de eliminar todos tus problemas con el alquiler y revalorizar tu casa a coste cero para ti.\n¿Te imaginas que el inquilino ademas de pagarte todos los meses te devolviera el piso en mejores condiciones que cuando lo arrendastes?\n¡Lo has encontrado!"
   },
   "ourOfert": {
     "title": "¿Que ofrecemos?",
@@ -15,11 +15,11 @@
     "cards": [
       {
         "title": "Particulares",
-        "description": "La gestion que merece tu propiedad.<br>¿Te imaginas alquilar tu vivienda sin tener que buscar inquilinos?<br>olvidate de estar pendiente de tus inquilinos. Nos encargamos de todo el proceso y su mantenimiento."
+        "description": "La gestion que merece tu propiedad.\n¿Te imaginas alquilar tu vivienda sin tener que buscar inquilinos?\nolvidate de estar pendiente de tus inquilinos. Nos encargamos de todo el proceso y su mantenimiento."
       },
       {
         "title": "Patrimoniales",
-        "description": "Hacemos un estudio de la situacion actual de la cartera(contratos vigentes, inmubles vacios, riesgos de impagos, estado de los inmuebles...).<br>Te ofrecemos un ingreso mensual, protegiendo al propietario de cualquier riesgo asociado a la gestion de la cartera (periodos sin inquilino, gastos de mantenimiento o impagos)."
+        "description": "Hacemos un estudio de la situacion actual de la cartera(contratos vigentes, inmubles vacios, riesgos de impagos, estado de los inmuebles...).\nTe ofrecemos un ingreso mensual, protegiendo al propietario de cualquier riesgo asociado a la gestion de la cartera (periodos sin inquilino, gastos de mantenimiento o impagos)."
       }
     ]
   },
@@ -117,7 +117,7 @@
   },
   "ourInfo": {
     "title": "¿Quienes somos?",
-    "description": "WeRent surge de la necesidad de algunos propietarios de encontrar soluciones adaptadas a sus necesidades especificas. Hay empresas que “aseguran” tu alquiler a cambio de un porcentaje, inmobiliarias tradicionales que meten a cualquiera y luego se desentienden, empresas de mantenimiento...<br>Lo que no existe es ninguna que aune todos nuestros servicios.<br>Nos convertimos en tu inquilino, liberandote de cualquier tipo de gestion y gasto que genera una propiedad, asi de facil.",
+    "description": "WeRent surge de la necesidad de algunos propietarios de encontrar soluciones adaptadas a sus necesidades especificas. Hay empresas que “aseguran” tu alquiler a cambio de un porcentaje, inmobiliarias tradicionales que meten a cualquiera y luego se desentienden, empresas de mantenimiento...\nLo que no existe es ninguna que aune todos nuestros servicios.\nNos convertimos en tu inquilino, liberandote de cualquier tipo de gestion y gasto que genera una propiedad, asi de facil.",
     "img": "",
     "properties": [
       {
