@@ -1,4 +1,4 @@
-export type Menu = {
+export type MenuOptions = {
   title: string;
   path: string;
 };
