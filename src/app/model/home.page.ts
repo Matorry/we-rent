@@ -3,13 +3,15 @@ export type WelcomeSection = {
   description: string;
 };
 
+export type Card = {
+  title: string;
+  description: string;
+};
+
 export type OfferSection = {
   title: string;
   descriptionList: string[];
-  cards: {
-    title: string;
-    description: string;
-  }[];
+  cards: Card[];
 };
 
 export type ImageInfo = {
@@ -74,7 +76,7 @@ export type ContactSection = ContactInfo;
 
 export type HomePageType = {
   welcome: WelcomeSection;
-  ourOfert: OfferSection;
+  ourOffer: OfferSection;
   ourWork: WorkSection;
   ourMethod: MethodSection;
   opinions: OpinionSection;

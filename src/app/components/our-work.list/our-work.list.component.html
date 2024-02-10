@@ -1,0 +1,7 @@
+<p>our-work.list works!</p>
+<p>{{data.title}}</p>
+<p>{{data.description}}</p>
+@for (card of data.images; track $index) {
+    <app-our-work-card [side]="card.side" [imgUrl]="card.imgUrl"></app-our-work-card>
+  
+}

@@ -1,0 +1,6 @@
+@if (title && paragraphs) {
+<p class="texto">{{title}}</p>
+@for (item of paragraphs; track $index) {
+<p>{{item}}</p>
+}
+}

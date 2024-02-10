@@ -3,7 +3,7 @@
     "title": "Ahorra tiempo, dinero y dolores de cabeza ",
     "description": "Te damos la oportunidad de eliminar todos tus problemas con el alquiler y revalorizar tu casa a coste cero para ti.\n¿Te imaginas que el inquilino ademas de pagarte todos los meses te devolviera el piso en mejores condiciones que cuando lo arrendastes?\n¡Lo has encontrado!"
   },
-  "ourOfert": {
+  "ourOffer": {
     "title": "¿Que ofrecemos?",
     "descriptionList": [
       "Aumentamos la rentabilidad de tu inmueble.",
@@ -28,20 +28,20 @@
     "description": "oeoeoeoeoeoeoe",
     "images": [
       {
-        "imgUrl": "",
-        "side": ""
+        "imgUrl": "url1",
+        "side": "side1"
       },
       {
-        "imgUrl": "",
-        "side": ""
+        "imgUrl": "url2",
+        "side": "side2"
       },
       {
-        "imgUrl": "",
-        "side": ""
+        "imgUrl": "url3",
+        "side": "side3"
       },
       {
-        "imgUrl": "",
-        "side": ""
+        "imgUrl": "url4",
+        "side": "side4"
       }
     ]
   },

@@ -1,0 +1,6 @@
+<p>our-offer.list works!</p>
+<p>title</p>
+<p>paragraphs</p>
+@for (card of cards; track $index) {
+    <app-our-offer-card [title]="card.title" [description]="card.description"></app-our-offer-card>  
+}
