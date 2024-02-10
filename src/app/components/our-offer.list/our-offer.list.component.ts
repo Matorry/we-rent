@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { Card, OfferSection } from '../../model/home.page';
 import { Subscription } from 'rxjs';
+import { Card } from '../../model/home.page';
 import { ReadDataService } from '../../services/read.data.service';
 import { OurOfferCardComponent } from '../our-offer.card/our-offer.card.component';
 
@@ -9,7 +9,7 @@ import { OurOfferCardComponent } from '../our-offer.card/our-offer.card.componen
   standalone: true,
   imports: [OurOfferCardComponent],
   templateUrl: './our-offer.list.component.html',
-  styleUrl: './our-offer.list.component.scss'
+  styleUrl: './our-offer.list.component.scss',
 })
 export class OurOfferListComponent {
   title!: string;

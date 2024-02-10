@@ -4,10 +4,19 @@ header {
   align-items: center;
   justify-content: space-between;
   padding-inline: 4rem;
-  background-color: #32323270;
+  background-color: #323232e6;
   height: 122px;
+  position: fixed;
+  top: 0;
+  width: 94.6vw;
   img {
     width: 250px;
     color: #dedede;
+  }
+}
+
+@media (width < 1282px) {
+  header {
+    width: 90vw;
   }
 }

@@ -1,0 +1,76 @@
+section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 3rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../../../assets/background-city.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 96.3vh;
+  div {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 60%;
+    padding-left: 5rem;
+    h1 {
+      margin-bottom: 1rem;
+      font-size: 8em;
+      color: #dedede;
+    }
+    p {
+      font-size: 2rem;
+      color: #dedede;
+    }
+  }
+  img {
+    width: 40%;
+  }
+}
+
+@media (width < 1440px) {
+  section {
+    div {
+      h1 {
+        font-size: 6rem;
+      }
+    }
+  }
+}
+@media (width < 1100px) {
+  section {
+    div {
+      h1 {
+        font-size: 4rem;
+      }
+    }
+  }
+}
+@media (width < 700px) {
+  section {
+    div {
+      h1 {
+        font-size: 3rem;
+      }
+      p {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+@media (width < 400px) {
+  section {
+    div {
+      h1 {
+        font-size: 2rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+    }
+  }
+}

@@ -16,3 +16,8 @@ nav {
     }
   }
 }
+@media (width < 1282px) {
+  ul {
+    gap: 1rem;
+  }
+}
