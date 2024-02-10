@@ -1,1 +1,9 @@
-<p>menu works!</p>
+<nav>
+  <ul>
+    @for (option of menuOptions; track $index) {
+    <li>
+      <a [routerLink]="[option.path]" routerLinkActive="router-link-active">{{option.label}}</a>
+    </li>
+    }
+  </ul>
+</nav>

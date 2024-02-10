@@ -1,33 +1,18 @@
-import { Component, OnDestroy, OnInit } from '@angular/core';
-import { Subscription } from 'rxjs';
-import { ReadDataService } from '../../services/read.data.service';
+import { Component } from '@angular/core';
+import { MenuOptions } from '../../types/menu.options';
+import { MenuComponent } from '../menu/menu.component';
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [],
-
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss',
+  imports: [MenuComponent],
 })
-export class HeaderComponent implements OnInit, OnDestroy {
-  title!: string;
-  paragraphs!: string[];
-  dataSuscription!: Subscription;
-  constructor(public readDataService: ReadDataService) {}
-
-  ngOnInit(): void {
-    this.dataSuscription = this.readDataService.getData().subscribe({
-      next: (data) => (
-        (this.title = data.welcome.title),
-        (this.paragraphs = this.readDataService.splitIntoParagraphs(
-          data.welcome.description
-        ))
-      ),
-    });
-  }
-
-  ngOnDestroy(): void {
-    this.dataSuscription.unsubscribe();
-  }
+export class HeaderComponent {
+  menuOptions: MenuOptions[] = [
+    { label: 'Inicio', path: '/' },
+    { label: 'Servicios', path: '/servicios' },
+    { label: 'Contacto', path: '/contacto' },
+  ];
 }

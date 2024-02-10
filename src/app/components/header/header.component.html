@@ -1,6 +1,4 @@
-@if (title && paragraphs) {
-<p class="texto">{{title}}</p>
-@for (item of paragraphs; track $index) {
-<p>{{item}}</p>
-}
-}
+<header>
+  <img src="../../../assets/wr-complete-logo-withe.svg" alt="Logo">
+  <app-menu [menuOptions]="menuOptions"></app-menu>
+</header>
