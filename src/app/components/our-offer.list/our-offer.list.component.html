@@ -1,6 +1,13 @@
-<p>our-offer.list works!</p>
-<p>title</p>
-<p>paragraphs</p>
-@for (card of cards; track $index) {
-    <app-our-offer-card [title]="card.title" [description]="card.description"></app-our-offer-card>  
-}
+<section class="our-offer-list">
+    <div class="container">
+        <div class="our-offer-list__content">
+            <h2> {{title}} </h2>
+            @for (item of paragraphs; track $index) {
+            <p>{{item}}</p>
+            }
+            @for (card of cards; track $index) {
+            <app-our-offer-card class="card" [title]="card.title" [description]="card.description"></app-our-offer-card>
+            }
+        </div>
+    </div>
+</section>
