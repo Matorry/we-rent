@@ -1,4 +1,4 @@
-<nav>
+<nav class="desktop-menu">
   <ul>
     @for (option of menuOptions; track $index) {
     <li>
@@ -7,3 +7,14 @@
     }
   </ul>
 </nav>
+
+<button mat-icon-button [matMenuTriggerFor]="menu" class="mobile-menu-button">
+  <mat-icon>more_vert</mat-icon>
+</button>
+<mat-menu #menu="matMenu" class="menuBurger">
+  @for (option of menuOptions; track $index) {
+  <button mat-menu-item [routerLink]="[option.path]" routerLinkActive="router-link-active">
+    {{option.label}}
+  </button>
+  }
+</mat-menu>

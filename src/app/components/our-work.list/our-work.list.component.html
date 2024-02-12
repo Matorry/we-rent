@@ -1,7 +1,25 @@
-<p>our-work.list works!</p>
-<p>{{data.title}}</p>
-<p>{{data.description}}</p>
-@for (card of data.images; track $index) {
-    <app-our-work-card [side]="card.side" [imgUrl]="card.imgUrl"></app-our-work-card>
-  
-}
+<article>
+  <h2>Ventajas de trabajar con nosotros.</h2>
+  <ul>
+    <li>
+      <h3>SEGURIDAD FINANCIERA</h3>
+      <p>Revalorización de tu propiedad. Pagos anticipados. Garantías bancarias</p>
+    </li>
+    <li>
+      <h3>larga estancia</h3>
+      <p>No es un alojamiento turístico. los inquilinos se quedan un mínimo de 6 meses para evitar excesivas rotaciones
+      </p>
+    </li>
+    <li>
+      <h3>limpieza y mantenimiento</h3>
+      <p>Incluimos servicio de limpieza semanal obligatorio y de reparaciones para que el hogar se mantenga siempre en
+        perfectas
+        condiciones.</p>
+    </li>
+    <li>
+      <h3>contratos</h3>
+      <p>Contratos de larga duración. El propietario si lo desea en todo momento tendrá conocimiento de quien vive en su
+        propiedad.</p>
+    </li>
+  </ul>
+</article>
