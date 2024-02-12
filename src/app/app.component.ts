@@ -10,6 +10,7 @@ import { OurWorkListComponent } from './components/our-work.list/our-work.list.c
 import { RentYourAppartmentComponent } from './components/rent.your.appartment/rent.your.appartment.component';
 import { TransfomYourAppartmentComponent } from './components/transfom.your.appartment/transfom.your.appartment.component';
 import { WelcomeComponent } from './components/welcome/welcome.component';
+import { OurMethodListComponent } from "./components/our-method.list/our-method.list.component";
 
 @Component({
   selector: 'app-root',
