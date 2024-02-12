@@ -49,32 +49,32 @@
     "title": "¿Como lo hacemos?",
     "steps": [
       {
-        "icon": "[Icono Casa]",
+        "icon": "../assets/icons/valoracion.svg",
         "title": "Valoracion gratuita del Inmueble",
         "description": "Realizamos un estudio de mercado y visitamos la vivivienda para ajustar la valoracion a sus caracteristicas especiales."
       },
       {
-        "icon": "",
+        "icon": "../assets/icons/modificaciones.svg",
         "title": "Evaluamos posibles modificaciones",
         "description": "Asumiendo el coste de estas, arreglamos, pintamos, decoramos y adecuamos la propiedad en caso de ser necesario."
       },
       {
-        "icon": "",
+        "icon": "../assets/icons/inquilinos.svg",
         "title": "Nos convertimos en tu inquilino",
         "description": "Nos convertimos en tu inquilino a largo plazo, garantizandote el cobro de tu renta mes a mes mimando tu casa."
       },
       {
-        "icon": "",
+        "icon": "../assets/icons/nuevo-alquiler.svg",
         "title": "Cambiamos la tipologia del alquiler",
         "description": "Destinándolo al hospedaje de trabajadores y estudiantes. Tenemos convenios con empresas y prestigiosas universidades, lo que nos permite tener una ocupacion total durante todo el contrato"
       },
       {
-        "icon": "",
+        "icon": "../assets/icons/servicio-limpieza.svg",
         "title": "Servicio de limpieza y mantenimiento",
         "description": "Tenemos un servicio obligatorio de limpieza y mantenimiento, ademas realizamos mejoras contínuas en la vivienda para mantenerla en perfecto estado."
       },
       {
-        "icon": "",
+        "icon": "../assets/icons/renta-pasiva.svg",
         "title": "Disfruta de una renta pasiva DE VERDAD",
         "description": "Olvidate de los gastos que implica un piso vacío, de la preocupacion de que te lo okupen, la posibilidad de impagos, visitas, llamadas de los inquilinos, destrozos... y disfruta por fin del alquiler inteligente. El único que además, revaloriza tu propiedad"
       }
