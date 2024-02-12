@@ -35,11 +35,10 @@ article {
     justify-content: center;
     align-items: start;
     flex-wrap: wrap;
-    height: 17%;
     width: 70%;
-    gap: 1vw;
+    gap: 5vw;
     li {
-      width: 35%;
+      width: 40%;
       font-size: 2vw;
     }
   }
@@ -53,5 +52,41 @@ article {
     padding: 2vw;
     color: black;
     font-size: 3vw;
+  }
+}
+
+@media (width < 768px) {
+  article {
+    hgroup {
+      width: 80%;
+      h2 {
+        font-size: 2rem;
+      }
+      span {
+        font-size: 1.5rem;
+      }
+    }
+    span {
+      font-size: 1rem;
+    }
+    ul {
+      flex-wrap: nowrap;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 80vw;
+      gap: 1vw;
+      padding-top: 1vh;
+      padding-bottom: 1vh;
+      li {
+        font-size: 1rem;
+        width: 70vw;
+        padding-bottom: 0.5rem;
+      }
+    }
+    a {
+      font-size: 1.2rem;
+      text-align: center;
+    }
   }
 }

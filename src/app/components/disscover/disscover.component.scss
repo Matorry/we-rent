@@ -41,3 +41,23 @@ article {
     font-size: 3vw;
   }
 }
+
+@media (width < 768px) {
+  article {
+    hgroup {
+      width: 60%;
+      h2 {
+        font-size: 2rem;
+      }
+      span {
+        font-size: 1.5rem;
+      }
+    }
+    span {
+      font-size: 1rem;
+    }
+    a {
+      font-size: 1.5rem;
+    }
+  }
+}

@@ -19,3 +19,13 @@ article {
     gap: 7vw;
   }
 }
+
+@media (width < 768px) {
+  article {
+    height: 195vh;
+    ul {
+      flex-wrap: nowrap;
+      flex-direction: column;
+    }
+  }
+}

@@ -23,3 +23,13 @@ article {
     }
   }
 }
+@media (width<768px) {
+  article {
+    ul {
+      flex-direction: column;
+      li {
+        width: 80vw;
+      }
+    }
+  }
+}

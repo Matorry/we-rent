@@ -21,3 +21,15 @@ article {
     font-size: 3vw;
   }
 }
+
+@media (width < 768px) {
+  article {
+    h2 {
+      font-size: 2rem;
+    }
+    p {
+      width: 70vw;
+      font-size: 1rem;
+    }
+  }
+}
