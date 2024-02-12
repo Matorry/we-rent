@@ -44,6 +44,7 @@ article {
 
 @media (width < 768px) {
   article {
+    height: auto;
     hgroup {
       width: 60%;
       h2 {
