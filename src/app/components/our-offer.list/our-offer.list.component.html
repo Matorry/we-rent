@@ -1,13 +1,18 @@
-<section class="our-offer-list">
-    <div class="container">
-        <div class="our-offer-list__content">
-            <h2> {{title}} </h2>
-            @for (item of paragraphs; track $index) {
-            <p>{{item}}</p>
-            }
-            @for (card of cards; track $index) {
-            <app-our-offer-card class="card" [title]="card.title" [description]="card.description"></app-our-offer-card>
-            }
-        </div>
-    </div>
-</section>
+<article>
+  <ul>
+    <li>
+      <h3>Particulares</h3>
+      <p>La gestión que merece tu propiedad. ¿Te imaginas alquiler tu vivienda sin tener que buscar inquilinos?
+
+        Olvídate de estar pendiente de tus inquilinos. Nos encargamos de todo el proceso y su mantenimiento.</p>
+    </li>
+    <li>
+      <h3>Patrimoniales</h3>
+      <p>Hacemos un estudio de la situación actual de la cartera (contratos vigentes, inmuebles vacíos, riesgos de
+        impago, estado
+        de los inmuebles...).Te ofrecemos un ingreso mensual, protegiendo al propietario de cualquier riesgo asociado a
+        la
+        gestión de la cartera (periodos sin inquilino, gastos de mantenimiento o impagos).</p>
+    </li>
+  </ul>
+</article>
