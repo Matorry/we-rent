@@ -1,0 +1,18 @@
+li {
+  width: 30vw;
+  height: 30vh;
+  border: 2px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1vw;
+  h3 {
+    font-size: 3vw;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+    font-size: 2vw;
+  }
+}

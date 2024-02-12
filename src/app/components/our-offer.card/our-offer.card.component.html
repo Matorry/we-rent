@@ -1,6 +1,8 @@
-@if (title && paragraphs) {
-<h3 class="title">{{title}}</h3>
-@for (item of paragraphs; track $index) {
-<p class="card">{{item}}</p>
-}
-}
+<li>
+  @if (title && paragraphs) {
+  <h3 class="title">{{title}}</h3>
+  @for (item of paragraphs; track $index) {
+  <p class="card">{{item}}</p>
+  }
+  }
+</li>

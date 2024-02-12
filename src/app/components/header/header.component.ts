@@ -12,7 +12,8 @@ import { MenuComponent } from '../menu/menu.component';
 export class HeaderComponent {
   menuOptions: MenuOptions[] = [
     { label: 'Inicio', path: '/' },
-    { label: 'Servicios', path: '/servicios' },
-    { label: 'Contacto', path: '/contacto' },
+    { label: 'Quienes somos', path: '/about-us' },
+    { label: 'Servicios', path: '/services' },
+    { label: 'Contacto', path: '/contact' },
   ];
 }

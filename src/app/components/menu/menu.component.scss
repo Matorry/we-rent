@@ -1,23 +1,49 @@
-nav {
-  ul {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 4rem;
-    list-style: none;
-    color: #dedede;
-    li {
-      a {
-        text-decoration: none;
-        color: inherit;
-        font-size: 1.5rem;
-      }
-    }
-  }
+/* CSS para el menú en pantallas grandes (escritorio) */
+.desktop-menu {
+  display: flex;
+  justify-content: center;
 }
-@media (width < 1282px) {
-  ul {
-    gap: 1rem;
+
+.desktop-menu ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 4vw;
+  list-style: none;
+  color: #dedede;
+}
+
+.desktop-menu ul li a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.5rem;
+}
+
+/* CSS para el menú burger en pantallas pequeñas (móviles) */
+.menuBurger {
+  display: none;
+}
+
+.mobile-menu-button {
+  display: none;
+}
+
+@media (max-width: 1023px) {
+  .desktop-menu {
+    display: none;
+  }
+
+  .mobile-menu-button {
+    display: block;
+  }
+
+  .menuBurger {
+    display: block;
+  }
+
+  .menuBurger button.mat-menu-item {
+    display: block;
+    text-align: center;
   }
 }

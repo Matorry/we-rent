@@ -4,19 +4,16 @@ header {
   align-items: center;
   justify-content: space-between;
   padding-inline: 4rem;
-  background-color: #323232e6;
+  background-color: rgba(0, 0, 0, 0.467);
   height: 122px;
   position: fixed;
   top: 0;
-  width: 94.6vw;
-  img {
-    width: 250px;
-    color: #dedede;
-  }
-}
+  width: 100vw;
+  z-index: 2;
 
-@media (width < 1282px) {
-  header {
-    width: 90vw;
+  img {
+    width: 40vw;
+    max-width: 250px;
+    color: #dedede;
   }
 }
