@@ -33,3 +33,18 @@ article {
     }
   }
 }
+
+@media (width > 1024px) {
+  article {
+    h2 {
+      font-size: 6rem;
+    }
+    ul {
+      width: 900px;
+      gap: 6rem;
+      li {
+        width: 301px;
+      }
+    }
+  }
+}

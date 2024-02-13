@@ -13,7 +13,7 @@ li {
   }
   p {
     text-align: center;
-    font-size: 2vw;
+    font-size: 1.5vw;
   }
 }
 
@@ -24,6 +24,20 @@ li {
     gap: 1vh;
     h3 {
       font-size: 1.3rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+  }
+}
+
+@media (width > 1024px) {
+  li {
+    width: 400px;
+    height: 390px;
+    gap: 1rem;
+    h3 {
+      font-size: 2rem;
     }
     p {
       font-size: 1rem;

@@ -4,7 +4,6 @@ article {
   justify-content: center;
   align-items: center;
   width: 100%;
-
   gap: 10vh;
   padding-top: 2rem;
   ul {
@@ -16,10 +15,15 @@ article {
     list-style: none;
     gap: 7vw;
     li {
-      width: 25vw;
+      width: 30vw;
+      height: 30vh;
       text-align: center;
       border: 2px solid white;
       padding: 2vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
     }
   }
 }
@@ -30,6 +34,19 @@ article {
       flex-direction: column;
       li {
         width: 80vw;
+      }
+    }
+  }
+}
+
+@media (width > 1024px) {
+  article {
+    ul {
+      width: 900px;
+      gap: 6rem;
+      li {
+        width: 301px;
+        height: 351px;
       }
     }
   }

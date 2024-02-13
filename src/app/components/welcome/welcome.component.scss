@@ -23,6 +23,7 @@ section {
   }
   img {
     width: 30vw;
+    max-width: 450px;
   }
 }
 
@@ -31,16 +32,34 @@ section {
     flex-direction: column;
     gap: 5vh;
     div {
+      align-items: center;
+      justify-content: center;
       width: 80%;
       h1 {
         font-size: 2rem;
+        text-align: center;
       }
       p {
+        text-align: center;
         font-size: 1rem;
       }
     }
   }
   img {
     width: 60vw;
+  }
+}
+
+@media (width > 1024px) {
+  section {
+    div {
+      width: 500px;
+      h1 {
+        font-size: 6rem;
+      }
+      p {
+        font-size: 2rem;
+      }
+    }
   }
 }

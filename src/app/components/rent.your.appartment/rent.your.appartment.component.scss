@@ -90,3 +90,35 @@ article {
     }
   }
 }
+
+@media (width > 1024px) {
+  article {
+    hgroup {
+      h2 {
+        font-size: 6rem;
+      }
+      span {
+        font-size: 2rem;
+      }
+    }
+    span {
+      font-size: 1rem;
+    }
+    ul {
+      width: 950px;
+      height: 300px;
+      gap: 1rem;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      li {
+        font-size: 1.5rem;
+        width: 450px;
+        padding-bottom: 0.5rem;
+      }
+    }
+    a {
+      font-size: 2rem;
+      padding: 1rem;
+    }
+  }
+}
