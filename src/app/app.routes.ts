@@ -7,7 +7,6 @@ export const routes: Routes = [
     loadComponent: () =>
       import('./pages/home/home.component').then((c) => c.HomeComponent),
   },
-
   {
     path: 'about',
     loadComponent: () =>
@@ -16,16 +15,12 @@ export const routes: Routes = [
   {
     path: 'services',
     loadComponent: () =>
-      import('./pages/services/services.component').then(
-        (c) => c.ServicesComponent
-      ),
+      import('./pages/services/services.component').then((c) => c.ServicesComponent),
   },
   {
     path: 'contact',
     loadComponent: () =>
-      import('./pages/contact/contact.component').then(
-        (c) => c.ContactComponent
-      ),
+      import('./pages/contact/contact.component').then((c) => c.ContactComponent),
   },
   { path: '**', redirectTo: 'home' },
 ];
