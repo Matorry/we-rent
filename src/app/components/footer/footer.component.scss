@@ -1,0 +1,62 @@
+.footer {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.icono {
+    grid-row: 1;
+    grid-column: 1;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    img {
+        width: 80vw;
+        max-width: 450px;
+        color: #dedede;
+      }
+}
+
+.escribenos {
+    grid-column: 1;
+    grid-row: 3;
+    h2{
+        font-weight: bold;
+    }
+    p{
+        font-weight: lighter;
+    }
+}
+
+.llamanos {
+    grid-column: 2;
+    grid-row: 3;
+    h2{
+        font-weight: bold;
+    }
+    p{
+        font-weight: lighter;
+    }}
+
+.horario {
+    h2{
+        font-weight: bold;
+    }
+    p{
+        font-weight: lighter;
+    }
+}
+.legal {
+    margin-top: 20px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.final {
+    margin-top: 20px;
+    font-weight: lighter;
+    text-align: center;
+}
